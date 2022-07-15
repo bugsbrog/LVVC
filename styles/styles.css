@@ -1,0 +1,42 @@
+.title {
+  display: inline-block;
+}
+
+.phone {
+  vertical-align: 17%;
+  margin-left: 53%;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 700;
+  color: #08c;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+a {
+  font-family: 'Alice';
+  font-weight: inherit;
+}
+
+a.phone-number {
+  color: #08c;
+  font-size: 20px;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a.about-us {
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+  color: #777;
+}
+
+li {
+  list-style: none;
+}
+/*# sourceMappingURL=styles.css.map */
