@@ -31,9 +31,11 @@ a.phone-number {
 
 a.about-us {
     text-decoration: none;
-    margin: 10px 0;
-    display: block;
-    color: #777
+    // margin: 10px 0;
+    // display: block;
+    color: #777;
+    display: flex;
+    justify-content: flex-end;
 }
 
 li {
