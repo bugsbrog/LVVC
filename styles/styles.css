@@ -79,7 +79,7 @@ li {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 25px 0;
+  padding-top: 15px;
 }
 
 i {
