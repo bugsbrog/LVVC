@@ -38,6 +38,7 @@ ul{
 
 ul li{
     display: inline-block;
+    position: relative;
     line-height: 21px;
 }
 
@@ -78,7 +79,7 @@ li {
     color: #777;
     display: flex;
     justify-content: flex-end;
-    padding: 25px 15px;
+    padding: 25px 0;
 }
 
 i {
