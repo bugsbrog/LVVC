@@ -20,7 +20,7 @@
 // ul, li, a, etc.
 
 a {
-    font-family: 'Alice';
+    font-family: 'Roboto Mono', monospace;
     font-weight: inherit;
 }
 
@@ -32,7 +32,7 @@ a.phone-number {
     text-decoration: none;
 }
 
-ul{
+ul {
     padding: 0;
 }
 
@@ -84,14 +84,15 @@ li {
     color: #777;
     display: flex;
     justify-content: flex-end;
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 3px;
 }
 
 i {
     margin-left: 5px;
     margin-top: 2px;
-    font-size: 15px;
+    font-size: 10px;
     color: #777;
 }
 
