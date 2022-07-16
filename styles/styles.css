@@ -7,7 +7,8 @@
   margin-left: 53%;
 }
 
-h1 {
+.lvvc {
+  text-decoration: none;
   font-size: 50px;
   font-family: 'Cormorant SC', serif;
   font-weight: 700;
@@ -27,6 +28,36 @@ a.phone-number {
   font-family: 'Cormorant SC', serif;
   font-weight: 700;
   text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li a {
+  display: block;
+  padding: 8px 25px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #08c;
+}
+
+ul li ul.dropdown-menu {
+  min-width: 100%;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+
+ul li:hover ul.dropdown-menu {
+  display: block;
+}
+
+ul li ul.dropdownmenu li {
+  display: block;
 }
 
 li {
