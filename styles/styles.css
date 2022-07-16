@@ -80,6 +80,7 @@ li {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding-top: 15px;
+  padding-right: 3px;
 }
 
 i {
