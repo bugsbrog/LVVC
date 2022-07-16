@@ -66,7 +66,7 @@ li {
 .home-page {
   text-decoration: none;
   color: #777;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .doctor {
@@ -82,8 +82,9 @@ li {
 }
 
 i {
-  margin-left: 8px;
+  margin-left: 5px;
   margin-top: 2px;
   font-size: 15px;
+  color: #777;
 }
 /*# sourceMappingURL=styles.css.map */
