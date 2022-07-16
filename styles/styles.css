@@ -89,4 +89,16 @@ i {
   font-size: 15px;
   color: #777;
 }
+
+.expanded {
+  text-decoration: none;
+  color: #777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 15px;
+}
 /*# sourceMappingURL=styles.css.map */
