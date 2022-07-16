@@ -17,6 +17,8 @@
     margin-left: 10px;
 }
 
+// ul, li, a, etc.
+
 a {
     font-family: 'Alice';
     font-weight: inherit;
@@ -34,14 +36,15 @@ ul{
     padding: 0;
 }
 
-ul li a{
-    display: block;
-    padding: 8px 25px;
-    text-decoration: none;
+ul li{
+    display: inline-block;
+    line-height: 21px;
 }
+
 ul li a:hover{
     color: #08c;
 }
+
 ul li ul.dropdown-menu{
     min-width: 100%;
     display: none;
@@ -49,23 +52,33 @@ ul li ul.dropdown-menu{
     z-index: 999;
     left: 0;
 }
+
 ul li:hover ul.dropdown-menu{
     display: block;
 }
-ul li ul.dropdownmenu li{
-    display: block;
-}
+
 li {
     list-style: none;
 }
 
-a.about-us {
+.navbar-wrapper {
+    float: right;
+}
+
+// About Us Page & home-page
+
+.home-page {
     text-decoration: none;
-    // margin: 10px 0;
-    // display: block;
+    color: #777;
+    padding: 0 10px;
+}
+
+.doctor {
+    text-decoration: none;
     color: #777;
     display: flex;
     justify-content: flex-end;
+    padding: 25px 15px;
 }
 
 i {

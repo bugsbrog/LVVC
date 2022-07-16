@@ -34,10 +34,9 @@ ul {
   padding: 0;
 }
 
-ul li a {
-  display: block;
-  padding: 8px 25px;
-  text-decoration: none;
+ul li {
+  display: inline-block;
+  line-height: 21px;
 }
 
 ul li a:hover {
@@ -56,15 +55,21 @@ ul li:hover ul.dropdown-menu {
   display: block;
 }
 
-ul li ul.dropdownmenu li {
-  display: block;
-}
-
 li {
   list-style: none;
 }
 
-a.about-us {
+.navbar-wrapper {
+  float: right;
+}
+
+.home-page {
+  text-decoration: none;
+  color: #777;
+  padding: 0 10px;
+}
+
+.doctor {
   text-decoration: none;
   color: #777;
   display: -webkit-box;
@@ -73,6 +78,7 @@ a.about-us {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding: 25px 15px;
 }
 
 i {
